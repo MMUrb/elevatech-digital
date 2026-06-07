@@ -153,7 +153,8 @@ input:focus,textarea:focus{border-color:var(--cream)}
 /* ---------- footer ---------- */
 footer{background:var(--slate-light);padding:clamp(50px,7vw,90px) 0}
 .foot{display:flex;justify-content:space-between;align-items:center;gap:clamp(24px,6vw,80px);}
-.foot .logo,.foot a{font-family:'Archivo';font-weight:900;font-size:clamp(20px,2.6vw,32px);color:var(--slate-dark);text-transform:uppercase;letter-spacing:.01em}
+.foot .logo,.foot a{font-family:'Archivo';font-weight:900;font-size:clamp(20px,2.1vw,26px);color:var(--slate-dark);text-transform:uppercase;letter-spacing:.01em}
+.foot .logo{white-space:nowrap}
 .foot-divider{flex:0 0 auto;width:1px;align-self:stretch;min-height:46px;background:rgba(32,48,90,.22);}
 
 /* ---------- responsive ---------- */
