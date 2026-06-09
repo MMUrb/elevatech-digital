@@ -57,38 +57,8 @@ header{position:sticky;top:0;z-index:100;background:var(--slate);}
 .hero-sub{font-size:clamp(17px,1.4vw,21px);color:var(--cream);max-width:430px;margin:32px 0 44px;font-weight:500;}
 .hero-cta{padding:24px 56px;font-size:14px;}
 
-/* product placeholder images */
-.device{
-  aspect-ratio:1/1;border-radius:6px;position:relative;overflow:hidden;
-  background:radial-gradient(120% 120% at 50% 20%,#f4f5f6 0%,#dfe2e4 55%,#c9ccce 100%);
-  display:flex;align-items:center;justify-content:center;
-}
-.device::after{
-  content:"";width:54%;height:62%;border-radius:22px;
-  background:linear-gradient(145deg,#6c6f74 0%,#2c2e31 45%,#0d0e0f 100%);
-  box-shadow:0 30px 60px rgba(0,0,0,.4),inset 0 2px 3px rgba(255,255,255,.25);
-}
-.device.pedestal::before{
-  content:"";position:absolute;bottom:7%;width:78%;height:18%;border-radius:50%;
-  background:radial-gradient(closest-side,rgba(255,255,255,.9),rgba(255,255,255,0));
-}
-.metal{
-  aspect-ratio:16/10;border-radius:4px;
-  background:radial-gradient(140% 140% at 80% 20%,#e9ebec 0%,#8d9094 35%,#2a2b2d 75%,#050505 100%);
-  box-shadow:inset 0 0 80px rgba(0,0,0,.4);
-}
-.metal.tall{aspect-ratio:3/4}
-.silver{
-  aspect-ratio:3/4;border-radius:4px;position:relative;overflow:hidden;
-  background:radial-gradient(120% 100% at 50% 35%,#fbfcfc 0%,#d6dadc 55%,#aeb3b6 100%);
-  display:flex;align-items:center;justify-content:center;
-}
-.silver::after{content:"";width:60%;height:74%;border-radius:14px;background:linear-gradient(160deg,#fafbfb,#c4c9cc);box-shadow:0 20px 45px rgba(0,0,0,.18)}
-.circuit{
-  aspect-ratio:1/1;border-radius:4px;
-  background:repeating-linear-gradient(45deg,#3a3c3f 0 14px,#2c2e30 14px 28px),radial-gradient(circle at 40% 55%,#e9ebec 0 70px,transparent 71px);
-  background-blend-mode:overlay;background-color:#cfd2d4;
-}
+/* media images */
+.media{display:block;width:100%;height:auto;border-radius:12px;box-shadow:0 26px 50px rgba(26,39,71,.20)}
 
 /* ---------- generic split section ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,64px);align-items:center;padding:clamp(50px,7vw,90px) 0;}

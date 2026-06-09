@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600" role="img" aria-label="Local search results with the first ranking position highlighted">
+  <defs>
+    <radialGradient id="s_bg" cx="50%" cy="18%" r="95%">
+      <stop offset="0%" stop-color="#8499a1"/><stop offset="60%" stop-color="#5d7484"/><stop offset="100%" stop-color="#45596d"/>
+    </radialGradient>
+    <linearGradient id="s_card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf6e6"/><stop offset="100%" stop-color="#efe6c9"/>
+    </linearGradient>
+    <filter id="s_soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#1a2747" flood-opacity="0.3"/>
+    </filter>
+    <pattern id="s_dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#f8f1da" fill-opacity="0.07"/></pattern>
+  </defs>
+  <rect width="450" height="600" fill="url(#s_bg)"/>
+  <rect width="450" height="600" fill="url(#s_dots)"/>
+  <g filter="url(#s_soft)"><rect x="45" y="80" width="360" height="450" rx="28" fill="url(#s_card)"/></g>
+  <!-- search field -->
+  <rect x="80" y="116" width="290" height="52" rx="26" fill="#ece3c6"/>
+  <circle cx="112" cy="142" r="11" fill="none" stroke="#20305a" stroke-width="4"/>
+  <line x1="120" y1="150" x2="131" y2="161" stroke="#20305a" stroke-width="4" stroke-linecap="round"/>
+  <rect x="140" y="137" width="158" height="10" rx="5" fill="#bfb491"/>
+  <!-- rank row 1 (highlighted) -->
+  <rect x="80" y="196" width="290" height="60" rx="16" fill="#20305a"/>
+  <circle cx="112" cy="226" r="15" fill="#f8f1da"/>
+  <text x="112" y="232" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#20305a">1</text>
+  <rect x="142" y="212" width="180" height="11" rx="5" fill="#f3ead0"/>
+  <rect x="142" y="231" width="120" height="8" rx="4" fill="#8aa0aa"/>
+  <!-- rank row 2 -->
+  <rect x="80" y="270" width="290" height="52" rx="14" fill="#efe6c9"/>
+  <circle cx="112" cy="296" r="13" fill="#d8cda6"/>
+  <rect x="140" y="286" width="170" height="9" rx="4.5" fill="#b6aa83"/>
+  <rect x="140" y="302" width="110" height="7" rx="3.5" fill="#cabf99"/>
+  <!-- rank row 3 -->
+  <rect x="80" y="334" width="290" height="52" rx="14" fill="#efe6c9"/>
+  <circle cx="112" cy="360" r="13" fill="#d8cda6"/>
+  <rect x="140" y="350" width="150" height="9" rx="4.5" fill="#b6aa83"/>
+  <rect x="140" y="366" width="96" height="7" rx="3.5" fill="#cabf99"/>
+  <!-- magnifier accent -->
+  <g transform="translate(330,452)">
+    <circle r="46" fill="#f8f1da" fill-opacity="0.06"/>
+    <circle r="46" fill="none" stroke="#f8f1da" stroke-width="11"/>
+    <line x1="33" y1="33" x2="70" y2="70" stroke="#f8f1da" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
